@@ -1,0 +1,6 @@
+pipeline:
+  seed: 42
+  test_size: 0.3
+  target_column: class
+  categorical_features: [workclass, education, marital-status, occupation, relationship, race, sex, native-country]
+  numeric_features: [age, fnlwgt, education-num, capital-gain, capital-loss, hours-per-week]

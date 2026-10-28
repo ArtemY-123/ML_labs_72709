@@ -1,0 +1,129 @@
+{
+  "rows": 48842,
+  "columns": 15,
+  "types": {
+    "age": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "fnlwgt": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "education-num": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "capital-gain": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "capital-loss": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "hours-per-week": {
+      "actual": "int64",
+      "expected": "integer",
+      "dtype_valid": true,
+      "invalid_values": 0
+    },
+    "workclass": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "education": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "marital-status": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "occupation": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "relationship": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "race": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "sex": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "native-country": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    },
+    "class": {
+      "actual": "category",
+      "expected": "category",
+      "dtype_valid": true
+    }
+  },
+  "missing_values": {
+    "age": 0,
+    "fnlwgt": 0,
+    "education-num": 0,
+    "capital-gain": 0,
+    "capital-loss": 0,
+    "hours-per-week": 0,
+    "workclass": 2799,
+    "education": 0,
+    "marital-status": 0,
+    "occupation": 2809,
+    "relationship": 0,
+    "race": 0,
+    "sex": 0,
+    "native-country": 857,
+    "class": 0
+  },
+  "range_violations": {
+    "age": 0,
+    "capital-gain": 0,
+    "capital-loss": 0,
+    "hours-per-week": 0
+  },
+  "invalid_categories": {
+    "workclass": 0,
+    "education": 0,
+    "marital-status": 0,
+    "occupation": 0,
+    "relationship": 0,
+    "race": 0,
+    "sex": 0,
+    "native-country": 0,
+    "class": 0
+  },
+  "exact_duplicate_rows": 52,
+  "label_quality": {
+    "conflicting_feature_groups": 5,
+    "conflicting_label_rows": 10,
+    "sample_size": 50,
+    "automated_sample_issues": 0,
+    "manual_review_status": "Pending manual verification"
+  }
+}

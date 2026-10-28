@@ -1,0 +1,40 @@
+pipeline:
+  seed: 42
+  test_size: 0.3
+  target_column: class
+  categorical_features:
+  - workclass
+  - education
+  - marital-status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - native-country
+  numeric_features:
+  - age
+  - fnlwgt
+  - education-num
+  - capital-gain
+  - capital-loss
+  - hours-per-week
+dataset:
+  name: UCI Adult
+  openml_version: 2
+  raw_rows: 48842
+  raw_columns: 15
+processing:
+  numeric_imputer: median
+  categorical_imputer: most_frequent
+  clip_percentiles:
+  - 1
+  - 99
+  drop_duplicates: training_only
+  derived_features:
+  - capital_net
+  - hours_per_age
+artifacts:
+  preprocessor: results/preprocessor.joblib
+  model: results/model_pipeline.joblib
+  processed_dataset: results/processed_data.joblib
+  sha256: 46f91e99d8e0eeeb75abd6637fa4354b734b029aeedbbe7168e1a3726448370f
