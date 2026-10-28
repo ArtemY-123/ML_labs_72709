@@ -122,7 +122,7 @@ widths = [16, 64]  # [cite: 1]
 epochs = 50  # [cite: 1]
 batch_size = 32  # [cite: 1]
 
-os.makedirs('results', exist_ok=True)
+os.makedirs('../results', exist_ok=True)
 plt.figure(figsize=(12, 8))
 
 for W in widths:
